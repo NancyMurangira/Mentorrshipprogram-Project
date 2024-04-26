@@ -1,0 +1,13 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  /* Media queries */
+@media only screen and (max-width: 600px) {
+    .container {
+      margin: 50px auto;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+body {
+ background-image: url('achievementwallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-left: 1320px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a.active {
+  color: black;
+}
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .achievements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .achievement {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media queries */
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 50px auto;
+  }
+}

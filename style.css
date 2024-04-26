@@ -1,0 +1,45 @@
+body{
+  background-image:url('signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.action{
+  text-align: center;
+}
+.login-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: grey;
+  margin-bottom: 120px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: darkcyan;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
