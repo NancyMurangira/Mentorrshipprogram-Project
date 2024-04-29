@@ -1,0 +1,10 @@
+body {
+    background-image: url('Booksummary.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   .book_summary{
+    text-align:center;
+    padding-top: 65px;
+   }

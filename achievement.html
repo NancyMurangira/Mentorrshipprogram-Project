@@ -12,26 +12,43 @@
     <a class="active" href="mentorpage.html"> Mentor's Profile </a>
     <a href="goal.html">Goals</a>
     <a href="achievement.html"> Achievement </a>
-    <a href="todo.html">Todo List</a>
+    <a href="todo.html"> Todo List </a>
   </div>
 
   <div class="container">
-     <h2>My Achievements</h2>
+    <h1>My Achievements</h1> <br> <br>
+
     <div class="achievements">
       <div class="achievement">
-        <!-- <img src="achievement_image1.jpg" alt="Achievement 1"> -->
-        <p>Learned a new language</p>
+        <h3> Attended an eductional workshop</h3>
       </div>
       <div class="achievement">
-        <!-- <img src="achievement_image2.jpg" alt="Achievement 2"> -->
-        <p>Won a community service award</p>
+        <h3> Won a community service award </h3>
       </div>
       <div class="achievement">
-        <!-- <img src="achievement_image3.jpg" alt="Achievement 3"> -->
-        <p> Attended an educational workshop</p>
+        <h3> Learned a new language </h3>
       </div>
     </div>
-    <button> Add Achievements </button>
+    <br>
+    <br>
+  <button class="btn" onclick="openForm()">Add Achievement</button>
+  <div class="form-popup" id="addAchievementForm">
+    <form action="/add_achievement" class="form-container">
+      <h2>Add Achievement</h2>
+      <label for="achievement">Achievement:</label>
+      <input type="text" id="achievement" name="achievement" required>
+      <button type="submit" class="btn">Add</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+    </form>
   </div>
+</div>
+<script>
+  function openForm() {
+    document.getElementById("addAchievementForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("addAchievementForm").style.display = "none";
+  }
+</script>
 </body>
 </html>
