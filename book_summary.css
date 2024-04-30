@@ -5,6 +5,7 @@ body {
    }
 
    .book_summary{
-    text-align:center;
+    text-align:justify;
     padding-top: 65px;
+    text-align: center;
    }

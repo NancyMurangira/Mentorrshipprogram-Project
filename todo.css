@@ -33,6 +33,7 @@ body {
   .todo-list {
     list-style-type: none;
     padding: 0;
+    gap: 20px;
   }
   .todo-list li {
     margin-bottom: 10px;
@@ -64,6 +65,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
+  }
+
+  .button{
+
   }
   
   /* Media queries */
